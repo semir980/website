@@ -1,0 +1,98 @@
+/* Responsive Styles */
+
+@media (max-width: 1200px) {
+    .about-us-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-us-image img {
+        max-width: 100%;
+    }
+
+    .about-us-content {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .services-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-card {
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    .section-header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .shop-now {
+        margin-top: 10px;
+    }
+
+    .product-slider {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-slide {
+        width: 80%;
+    }
+
+    .services-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-card {
+        width: 90%;
+    }
+
+    .contact-us-container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .title-container h1 {
+        font-size: 2em;
+    }
+
+    .product-info h3 {
+        font-size: 1.2em;
+    }
+
+    .product-info p {
+        font-size: 1em;
+    }
+
+    .count {
+        font-size: 1.5em;
+    }
+
+    .about-us-content h2 {
+        font-size: 1.5em;
+    }
+
+    .about-us-content p {
+        font-size: 1em;
+    }
+
+    .learn-more-btn {
+        padding: 8px 16px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        width: 100%;
+    }
+
+    .submit-btn {
+        padding: 8px;
+    }
+}
